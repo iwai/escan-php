@@ -1,0 +1,19 @@
+{
+  "chmod": "0755",
+  "files": [
+    "vendor/autoload.php"
+  ],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": [ "tests" ],
+      "in": [
+        "src",
+        "vendor/composer"
+      ]
+    }
+  ],
+  "main": "bin/escan.php",
+  "output": "bin/escan.phar",
+  "stub": true
+}

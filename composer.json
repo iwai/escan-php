@@ -1,0 +1,11 @@
+{
+  "name": "iwai/escan",
+  "authors":[
+    { "name":"Yuji Iwai", "email":"iwai.ug@gmail.com" }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Escan\\": "src/"
+    }
+  }
+}
